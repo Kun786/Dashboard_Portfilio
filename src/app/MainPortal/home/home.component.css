@@ -1,0 +1,36 @@
+.home{
+    position: relative;
+    background-color: whitesmoke !important;
+}
+input{
+    height: 70px;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+}
+.inputbox{
+    display: inline;
+}
+#fullinput{
+    width: 93%;
+}
+#halfinput{
+   width: 45%; 
+}
+.mgin .col-12{
+    margin-left: 25px !important;
+}   
+
+@media screen and (max-width:988px){
+    .inputbox #halfinput , .inputbox #fullinput{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:767px){
+   .mergin{
+       height: 100%;
+       margin-top: 0% !important;
+       padding: 0 7px;
+   }
+   
+}

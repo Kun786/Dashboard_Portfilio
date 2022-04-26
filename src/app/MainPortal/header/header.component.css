@@ -1,0 +1,42 @@
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+.navbar-nav li a {
+    font-size: 18px !important;
+    color: white !important;
+    margin-left: 12px !important;
+}
+.txt h1{
+    font-size: 6vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px !important;
+}
+.txt p{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.imegs img{
+    width: 80px;
+    height: 100px;
+    margin-left: 15px;
+}
