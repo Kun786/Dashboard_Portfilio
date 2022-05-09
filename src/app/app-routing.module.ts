@@ -13,6 +13,7 @@ import { AdminSignUpComponent } from './ManagementPortal/AdminManagement/admin-s
 
 const routes: Routes = [
   { path:'' , component:HomeComponent },
+  { path:'home' , component:HomeComponent },
   { path:'admin-portal' , component:AdminDefaultComponent,
   children : [
     {path:'',component:AdminDashboardComponent},
