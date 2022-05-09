@@ -11,16 +11,17 @@ import { VirtualRealityComponent } from '../virtual-reality/virtual-reality.comp
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    BrowserModule,
+  declarations: [
     AdminDashboardComponent,
     TablesComponent,
     BillingComponent,
     VirtualRealityComponent,
     RTLComponent,
-    ProfileComponent,
+    ProfileComponent
+  ],
+  imports: [
+    CommonModule,
+    BrowserModule,
   ]
 })
 export class AdminDefaultModule { }

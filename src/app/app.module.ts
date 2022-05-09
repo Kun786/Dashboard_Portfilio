@@ -10,6 +10,7 @@ import { AdminSignInComponent } from './ManagementPortal/AdminManagement/admin-s
 import { AdminSignUpComponent } from './ManagementPortal/AdminManagement/admin-sign-up/admin-sign-up.component';
 import { UserSignUpComponent } from './ManagementPortal/UserManagement/user-sign-up/user-sign-up.component';
 import { UserSignInComponent } from './ManagementPortal/UserManagement/user-sign-in/user-sign-in.component';
+import { HomeComponent } from './MainPortal/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UserSignInComponent } from './ManagementPortal/UserManagement/user-sign
     AdminSignUpComponent,
     UserSignUpComponent,
     UserSignInComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,10 +7,12 @@ import { ProfileComponent } from './AdminPortal/profile/profile.component';
 import { RTLComponent } from './AdminPortal/rtl/rtl.component';
 import { TablesComponent } from './AdminPortal/tables/tables.component';
 import { VirtualRealityComponent } from './AdminPortal/virtual-reality/virtual-reality.component';
+import { HomeComponent } from './MainPortal/home/home.component';
 import { AdminSignInComponent } from './ManagementPortal/AdminManagement/admin-sign-in/admin-sign-in.component';
 import { AdminSignUpComponent } from './ManagementPortal/AdminManagement/admin-sign-up/admin-sign-up.component';
 
 const routes: Routes = [
+  { path:'' , component:HomeComponent },
   { path:'admin-portal' , component:AdminDefaultComponent,
   children : [
     {path:'',component:AdminDashboardComponent},
