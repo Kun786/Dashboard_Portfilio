@@ -1,0 +1,124 @@
+body {
+    padding-top: 100px;
+    background-image: url('../../../assets/footer-images/inner_footer_bg.png');
+    width: 100%;
+    background-size: cover;
+    height: auto;
+  }
+  
+  span {
+    color: red;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .menu-list-1 {
+    text-align: right !important;
+  }
+  
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  ul li {
+    text-decoration: none;
+    color: #f1e7e7;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-left: -30px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #f1e7e7;
+  }
+  div ul li {
+    margin-left: 3px;
+  }
+  .ul-2 li {
+    display: inline-block;
+    border: 1px gray solid;
+    padding: 5px;
+  }
+  div ul {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .fa-tumblr {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-facebook-f {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+    font-weight: 900;
+  }
+  .fa-dribbble {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-slideshare {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-twitter {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-linkedin {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-reddit {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-wordpress {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-behance {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-flickr {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-youtube {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-pinterest {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .fa-instagram {
+    font-size: 25px;
+    color: rgb(42, 43, 43);
+  }
+  .ali {
+    background-color: rgb(5, 5, 5);
+    height: auto;
+    width: 100%;
+  }
+  div img {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .ul-3 {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+  }
+  .ul-3 li {
+    padding-right: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 19px;
+  }
+  
