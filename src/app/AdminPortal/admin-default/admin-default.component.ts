@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminDefaultComponent implements OnInit {
 
+  showSidebar = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleClass() {
+    this.showSidebar = !this.showSidebar
   }
 
 }

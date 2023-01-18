@@ -1,4 +1,3 @@
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -11,8 +10,59 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+  .navbar-vertical-hide {
+    transition: .3s ease-in;
+    display: none !important;
+  }
+
+  .navbar-vertical-show {
+    transition: .3s ease-out;
+    display: block !important;
+  }
+
+  .main-content-show {
+    margin-left: 16rem !important;
+  }
+
+  .main-content-hide {
+    margin-left: 0 !important;
+  }
 }
 
-.aside{
+@media only screen and (max-width: 600px) {
+  .navbar.navbar-main {
+    display: block !important;
+  }
+
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4,
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav,
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav #iconNavbarSidenav {
+    display: block !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .ms-md-auto.pe-md-3.d-flex.align-items-center,
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav li:nth-child(1),
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav li:nth-child(2),
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav li:nth-child(4),
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav li:nth-child(5),
+  .collapse.navbar-collapse.mt-sm-0.mt-2.me-md-0.me-sm-4 .navbar-nav li:nth-child(6){
+    display: none !important;
+  }
+
+  .navbar-vertical-hide {
+    transition: .3s ease-in;
+    display: none !important;
+  }
+
+  .navbar-vertical-show {
+    transition: .3s ease-out;
+    display: block !important;
+  }
+}
+
+.aside {
   background-color: black;
 }
